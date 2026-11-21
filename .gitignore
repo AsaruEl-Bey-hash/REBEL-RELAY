@@ -1,0 +1,6 @@
+.env
+.env.local
+config/agent-overrides.local.json
+learning/private-feedback.jsonl
+*.mp3
+node_modules/

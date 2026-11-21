@@ -1,0 +1,9 @@
+{
+  "name": "rebel-relay",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A customizable six-agent newsroom relay team for Counter Culture News",
+  "scripts": {"start": "node src/cli.mjs", "check": "node --check src/registry.mjs && node --check src/elevenlabs.mjs && node --check src/learning.mjs && node --check src/cli.mjs"},
+  "engines": {"node": ">=20"}
+}

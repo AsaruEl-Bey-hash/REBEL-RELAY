@@ -1,0 +1,4 @@
+{
+  "terra": {"personality":{"voice":"Customize this persona in your own local override."},"voice":{"settings":{"speed":1.02}}},
+  "echo": {"personality":{"traits":["fair-minded","skeptical","patient","transparent","uncertainty-aware"]}}
+}

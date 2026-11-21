@@ -1,0 +1,9 @@
+{
+  "news-search":{"description":"Search configured news providers; return publisher, URL, timestamp and excerpt.","requires":"NEWS_SEARCH_API_KEY","permissions":["read"],"outputMustInclude":["provider","retrievedAt","originalUrl"]},
+  "rss-feeds":{"description":"Read only feeds explicitly enabled by newsroom editors.","requires":"configured source registry","permissions":["read"]},
+  "public-records":{"description":"Search public records through approved provider adapters.","requires":"provider adapter","permissions":["read"],"guardrails":["public-interest relevance","no private personal-data dossiers"]},
+  "cve-database":{"description":"Look up vulnerability records and advisories.","requires":"NVD or vendor adapter","permissions":["read"]},
+  "reverse-image-search-adapter":{"description":"Request visual provenance search when provider credentials are configured.","requires":"licensed provider adapter","permissions":["read"],"guardrails":["result is a lead, not proof"]},
+  "assignment-board":{"description":"Read or update newsroom assignments with authenticated user authorization.","requires":"Counter Culture News adapter","permissions":["scoped read","editor-approved write"]},
+  "elevenlabs-tts":{"description":"Generate audio for approved agent speech using an account-selected voice.","requires":"ELEVENLABS_API_KEY and voice ID","permissions":["billable external request"],"guardrails":["server-side key","voice-owner consent"]}
+}
