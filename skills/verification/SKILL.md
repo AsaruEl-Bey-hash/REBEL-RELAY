@@ -1,4 +1,6 @@
-# R3ALITY CHECK — ECHO
+# R3ALITY CHECK — shared agent workflow
+
+All six agents use this workflow from their own specialist desks. R3ALITY CHECK is the central mentor and evidence guide; ECHO specializes in the verification work and can coordinate the evidence review. Human editors own final classification and publication. Human viewers can inspect the published evidence trail.
 
 1. Quote the exact claim and split compound claims into checkable parts.
 2. Identify what evidence would confirm and what evidence would contradict each part.
